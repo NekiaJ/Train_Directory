@@ -1,0 +1,85 @@
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Train Tracker</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  
+  
+  <link rel = "stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <!-- Moment.js Reference -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <div id="wrapper">
+            <div class="jumbotron">
+                    <h1 class="text-center">Train Tracker</h1>
+                    <h3 class="text-center">A Comprehensive Directory of Trains</h3>
+                  </div>
+
+                  <div id = "formSection">
+                    <form>
+                      <div class="trainName">
+                        <label for="formGroupExampleInput">Train Name</label>
+                        <input type="text" class="form-control" id="form1" placeholder="Name of the train goes here">
+                      </div>
+                      <div class="Destination">
+                        <label for="formGroupExampleInput2">Destination</label>
+                        <input type="text" class="form-control" id="form2" placeholder="Name of Destination">
+                      </div> 
+                      <div class="FirstTrainTime">
+                        <label for="formGroupExampleInput"> Train Time</label>
+                        <input type="text" class="form-control" id="form3" placeholder="Train Time">
+                      </div>
+                      <div class="freq">
+                        <label for="formGroupExampleInput2">Train Frequency</label>
+                        <input type="text" class="form-control" id="form4" placeholder="Frequency">
+                      </div>
+                        <br>
+                        
+                      <button type="button" class="btn btn-primary" id="addTrain">Submit</button>
+                    </form>
+                    </div>
+
+             <div id = "trainInfo_div">
+                 <h1>Train Directory</h1>
+                 <table class="table table-striped" id= "train_table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name of Train</th>
+                      <th scope="col">Destination of Train</th>
+                      <th scope="col">Train Frequency</th>
+                      <th scope="col">Min. Away</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    
+                  </tbody>
+                </table>     
+                            
+ </div>
+
+
+
+
+
+
+
+</div>
+
+<!-- Firebase Reference -->
+<script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-database.js"></script>
+
+
+
+    <script src="train_code.js"></script>
+</body>
