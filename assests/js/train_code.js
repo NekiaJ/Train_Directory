@@ -110,6 +110,8 @@ var database = firebase.database();
   // Append the new row to the table
   $("#train_table > tbody").append(newRows);
   console.log();
+
+  
 });
 
 

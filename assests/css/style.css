@@ -3,7 +3,7 @@
     height: 200px;
    
     background-color: rgb(73, 73, 73);
-    background-image: url(moving-train-yves-gagnon.jpg);
+    background-image: url(assests/img/moving-train-yves-gagnon.jpg);
     
      background-repeat: no-repeat;
      background-position:center;
@@ -16,17 +16,17 @@ h1,h3{
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #trainInfo_div{
-    float: right;
+   /* float: right;*/
     margin: 0px auto;
     background-color:rgb(255, 255, 255)
 }
 #formSection{
-    width: 555px;
+    /*width: 555px;*/
     margin: 15px 15px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #train_table{
-    width:575px;
+    /*width:575px;*/
     margin: 25px 15px 25px 15px;
 }
